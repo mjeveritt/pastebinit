@@ -1,3 +1,11 @@
+pastebinit (0.11-1) experimental; urgency=low
+
+  * new upstream release. Closes: #510075
+    * add support for paste.debian.net (among others). Closes: #483381. Fixes LP: #236041
+    * add German translation (among others). Closes: #493989
+
+ -- Rolf Leggewie <foss@rolf.leggewie.biz>  Tue, 30 Dec 2008 15:47:03 +0100
+
 pastebinit (0.10-1) unstable; urgency=low
 
   * initial debian release. backpush from ubuntu. Closes: #425226
