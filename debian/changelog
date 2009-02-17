@@ -1,3 +1,9 @@
+pastebinit (0.11-2) unstable; urgency=low
+
+  * rebuild for unstable after lenny release
+
+ -- Rolf Leggewie <foss@rolf.leggewie.biz>  Tue, 17 Feb 2009 16:44:15 +0900
+
 pastebinit (0.11-1) experimental; urgency=low
 
   * new upstream release. Closes: #510075
