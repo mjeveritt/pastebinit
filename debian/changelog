@@ -1,3 +1,10 @@
+pastebinit (0.11.2-0ubuntu1) jaunty; urgency=low
+
+  * new bugfix release (0.11.2)
+   * Fix typo in manpage causing FTBFS
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Tue, 10 Mar 2009 01:25:02 -0400
+
 pastebinit (0.11.1-0ubuntu1) jaunty; urgency=low
 
   * new bugfix release (0.11.1)
