@@ -1,3 +1,12 @@
+pastebinit (1.0-0ubuntu1) lucid; urgency=low
+
+  * New upstream version (1.0)
+   * Introduce /etc/pastebin.d/ for pastebin definition
+   * Code cleanup and refactoring
+   * Updating documentation and translations
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Wed, 17 Feb 2010 20:33:03 -0500
+
 pastebinit (0.11.2-1) unstable; urgency=low
 
   * push back new upstream release from Ubuntu Jaunty. (Closes: #519879)
