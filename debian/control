@@ -13,7 +13,7 @@ Homepage: http://launchpad.net/pastebinit/
 
 Package: pastebinit
 Architecture: all
-Depends: python, ${python:Depends}
+Depends: python, ${python:Depends}, python-configobj
 XB-Python-Version: ${python:Versions}
 Description: command-line pastebin client
  pastebinit is a command-line tool to send data to a "pastebin", a web site 

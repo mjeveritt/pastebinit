@@ -1,3 +1,9 @@
+pastebinit (1.0-0ubuntu2) lucid; urgency=low
+
+  * Add missing dependency on python-configobj
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Mon, 22 Feb 2010 19:27:53 -0500
+
 pastebinit (1.0-0ubuntu1) lucid; urgency=low
 
   * New upstream version (1.0)
