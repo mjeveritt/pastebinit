@@ -1,3 +1,4 @@
 pastebin.d/ etc/
+debian/pastebin.d/* etc/pastebin.d/
 pastebinit	usr/bin/
 po/mo/*		usr/share/locale/
