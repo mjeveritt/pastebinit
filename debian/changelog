@@ -1,3 +1,9 @@
+pastebinit (1.0-0ubuntu3) lucid; urgency=low
+
+  * Take pastebin.com.conf from bzr to fix pastebin.com until 1.1 is released.
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Tue, 23 Feb 2010 20:00:30 -0500
+
 pastebinit (1.0-0ubuntu2) lucid; urgency=low
 
   * Add missing dependency on python-configobj
