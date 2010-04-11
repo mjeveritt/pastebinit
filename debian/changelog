@@ -1,3 +1,11 @@
+pastebinit (1.1-0ubuntu1) lucid; urgency=low
+
+  * New upstream bugfix release (1.1)
+   * Drop the current in-packaging fix and put it upstream
+   * Fix yourpaste.net, paste2.org and pastebin.com
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Sun, 11 Apr 2010 12:23:03 -0400
+
 pastebinit (1.0-0ubuntu3) lucid; urgency=low
 
   * Take pastebin.com.conf from bzr to fix pastebin.com until 1.1 is released.
