@@ -1,3 +1,10 @@
+pastebinit (0.11.2-0ubuntu1.1) jaunty-proposed; urgency=low
+
+  * fix by Moritz Naumann for compatibility with new pastebin.com API
+    (LP: #526849)
+
+ -- Arand Nash <ienorand@gmail.com>  Mon, 19 Apr 2010 16:16:01 +0200
+
 pastebinit (0.11.2-0ubuntu1) jaunty; urgency=low
 
   * new bugfix release (0.11.2)
