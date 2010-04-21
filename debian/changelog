@@ -1,3 +1,10 @@
+pastebinit (0.11.2-1ubuntu0.1) karmic-proposed; urgency=low
+
+  * fix by Moritz Naumann for compatibility with new pastebin.com API
+    (LP: #526849)
+
+ -- Arand Nash <ienorand@gmail.com>  Wed, 21 Apr 2010 04:03:42 +0100
+
 pastebinit (0.11.2-1) unstable; urgency=low
 
   * push back new upstream release from Ubuntu Jaunty. (Closes: #519879)
