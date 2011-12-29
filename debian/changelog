@@ -1,3 +1,11 @@
+pastebinit (1.2-4ubuntu1) precise; urgency=low
+
+  * Convert to dh_python2 (Closes: #616933)
+    - update debian/rules
+    - update debian/control
+
+ -- Micah Gersten <micahg@ubuntu.com>  Wed, 28 Dec 2011 19:54:06 -0600
+
 pastebinit (1.2-4) unstable; urgency=low
 
   * debian/pastebinit.preinst: add #DEBHELPER# token to script
