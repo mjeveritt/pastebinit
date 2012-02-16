@@ -22,7 +22,7 @@ clean:
 install: build
 	dh_testdir
 	dh_testroot
-	dh_clean -k 
+	dh_prep
 	dh_installdirs
 	dh_install
 
@@ -33,7 +33,7 @@ binary-indep: build install
 	dh_pycentral
 	dh_installchangelogs 
 	dh_installdocs
-	dh_installman pastebinit.1
+	dh_installman
 	dh_compress
 	dh_fixperms
 	dh_installdeb
