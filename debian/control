@@ -10,6 +10,7 @@ Standards-Version: 3.9.2
 Homepage: http://launchpad.net/pastebinit/
 Vcs-Browser: http://git.debian.org/?p=collab-maint/pastebinit.git
 Vcs-Git: git://git.debian.org/collab-maint/pastebinit.git
+X-Ubuntu-Use-Langpack: yes
 
 Package: pastebinit
 Architecture: all
