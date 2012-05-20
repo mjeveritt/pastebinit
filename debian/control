@@ -3,10 +3,10 @@ Section: misc
 Priority: optional
 Maintainer: Rolf Leggewie <foss@rolf.leggewie.biz>
 DM-Upload-Allowed: yes
-Build-Depends: debhelper (>= 7)
-Build-Depends-Indep: xsltproc, docbook-xml, docbook-xsl, python-central (>= 0.5.6)
+Build-Depends: debhelper (>= 7.0.50~)
+Build-Depends-Indep: xsltproc, docbook-xml, docbook-xsl
 XS-Python-Version: all
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://launchpad.net/pastebinit/
 Vcs-Browser: http://git.debian.org/?p=collab-maint/pastebinit.git
 Vcs-Git: git://git.debian.org/collab-maint/pastebinit.git
@@ -14,7 +14,8 @@ Vcs-Git: git://git.debian.org/collab-maint/pastebinit.git
 Package: pastebinit
 Architecture: all
 Depends: python, python-configobj, ${python:Depends}, ${misc:Depends}
-Conflicts: bikeshed (<< 1.21)
+Recommends: lsb-release
+Breaks: bikeshed (<< 1.21)
 Replaces: bikeshed (<< 1.21)
 XB-Python-Version: ${python:Versions}
 Description: command-line pastebin client
