@@ -1,3 +1,13 @@
+pastebinit (0.9-0ubuntu1.1) hardy-proposed; urgency=low
+
+  * Cherry-pick new pastebin.com.conf file from pastebinit 1.3.1 and
+    convert it to the equivalent old-style in code config, also port
+    another reLink handling from current pastebinit so that regexp matching
+    works in 0.9.
+    This switches to the new pastebin.com API (now mandatory) (LP: #996242)
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Wed, 30 May 2012 10:33:50 -0400
+
 pastebinit (0.9-0ubuntu1) hardy; urgency=low
 
   * New upstream release (0.9)
