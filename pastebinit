@@ -17,7 +17,7 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
-defaultPB = "http://paste.debian.net" #Default pastebin
+defaultPB = "http://pastebin.com" #Default pastebin
 try:
     import lsb_release
     release = lsb_release.get_distro_information()['ID'].lower()
