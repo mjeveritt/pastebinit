@@ -1,3 +1,12 @@
+pastebinit (1.5-2) unstable; urgency=medium
+
+  * control:
+    - update VCS URIs to point to github
+    - update Debian Standard to 4.1.4
+  * copyright: update to 2018
+
+ -- Rolf Leggewie <foss@rolf.leggewie.biz>  Sun, 15 Apr 2018 23:38:02 +0800
+
 pastebinit (1.5-1) unstable; urgency=medium
 
   * new upstream release
