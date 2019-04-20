@@ -1,3 +1,10 @@
+pastebinit (1.5-2.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Depend on python3-distro, which was forgotten in the last upload.
+
+ -- Simon Quigley <tsimonq2@debian.org>  Fri, 19 Apr 2019 21:05:19 -0500
+
 pastebinit (1.5-2.1) unstable; urgency=medium
 
   * Non-maintainer upload.
