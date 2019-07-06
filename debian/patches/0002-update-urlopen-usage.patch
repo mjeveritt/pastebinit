@@ -50,8 +50,9 @@ Author: Antonio Terceiro <terceiro@debian.org>
  
          if post_format == 'json':
              if json:
-                 params = json.dumps(params)
+-                params = json.dumps(params)
 -                url_opener.addheader('Content-type', 'text/json')
++                params = bytes(json.dumps(params), encoding='US-ASCII')
 +                req.add_header('Content-type', 'text/json')
              else:
                  print(_("Could not find any json library."), file=sys.stderr)

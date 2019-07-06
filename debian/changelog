@@ -1,3 +1,15 @@
+pastebinit (1.5-2.3) unstable; urgency=medium
+
+  [ Gianfranco Costamagna ]
+  * Non-maintainer upload.
+  * This is a fixup upload of the previous NMU
+
+  [ Unit 193 ]
+  * 0002-update-urlopen-usage.patch:
+    - Update to account for json pastebin services.
+
+ -- Unit 193 <unit193@ubuntu.com>  Sat, 06 Jul 2019 19:35:41 -0400
+
 pastebinit (1.5-2.2) unstable; urgency=medium
 
   * Non-maintainer upload.
