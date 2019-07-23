@@ -1,3 +1,16 @@
+pastebinit (1.5-3) unstable; urgency=medium
+
+  * Salvage the package (Closes: #927231).
+  * Update Vcs to reflect the move to Salsa.
+  * Run wrap-and-sort.
+  * Fix typo in a patch description.
+  * Update Standards-version to 4.3.0, no changes needed.
+  * Fix trailing whitespace.
+  * Bump debhelper compat to 12, no changes needed.
+  * Update the copyright file to be DEP-5 compliant.
+
+ -- Simon Quigley <tsimonq2@debian.org>  Tue, 23 Jul 2019 16:31:11 -0500
+
 pastebinit (1.5-2.3) unstable; urgency=medium
 
   [ Gianfranco Costamagna ]
@@ -332,26 +345,26 @@ pastebinit (0.8-0ubuntu1) gutsy; urgency=low
     - Add 1t2.us pastebin support (Daniel Bartlett)
     - New parameters system (Daniel Bartlett)
     - Redirection support (Daniel Bartlett)
-    - Pipe content detection (Stéphane Graber) 		
-    - Title, format, user and password support (Daniel Bartlett) 		
-    - Updated manpage (Stéphane Graber) 		
-    - New regexp (Daniel Bartlett) 		
+    - Pipe content detection (Stéphane Graber)
+    - Title, format, user and password support (Daniel Bartlett)
+    - Updated manpage (Stéphane Graber)
+    - New regexp (Daniel Bartlett)
 
- -- Stéphane Graber <stgraber@stgraber.org>  Thu, 26 Apr 2007 14:05:31 +0200 		
+ -- Stéphane Graber <stgraber@stgraber.org>  Thu, 26 Apr 2007 14:05:31 +0200
 
-pastebinit (0.6-0ubuntu1) feisty; urgency=low 		
+pastebinit (0.6-0ubuntu1) feisty; urgency=low
 
-  * New version upstream 		
-    - Add a COPYING file 		
-    - remove paste.ubuntu-nl.org because of the anti-spam javascript 		
-    - change the default Pastebin 		
-    - add two pastebins 		
-    - add support of regexp 		
+  * New version upstream
+    - Add a COPYING file
+    - remove paste.ubuntu-nl.org because of the anti-spam javascript
+    - change the default Pastebin
+    - add two pastebins
+    - add support of regexp
 
- -- Stéphane Graber <stgraber@stgraber.org>  Thu, 07 Dec 2006 20:58:31 +0100 		
+ -- Stéphane Graber <stgraber@stgraber.org>  Thu, 07 Dec 2006 20:58:31 +0100
 
-pastebinit (0.5-0ubuntu1) feisty; urgency=low 		
+pastebinit (0.5-0ubuntu1) feisty; urgency=low
 
-  * Initial release 		
+  * Initial release
 
  -- Stéphane Graber <stgraber@stgraber.org>  Tue, 28 Nov 2006 19:32:40 +0100

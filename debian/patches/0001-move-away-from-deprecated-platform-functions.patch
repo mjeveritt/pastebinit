@@ -1,6 +1,6 @@
 Description: move away from deprecated platform functions
  The linux_distribution function from the platform has been deprecated in
- Python 3.5. `distro` is the natural sucessor, however it is a new dependency.
+ Python 3.5. `distro` is the natural successor, however it is a new dependency.
 Author: Antonio Terceiro <terceiro@debian.org>
 
 --- a/pastebinit
