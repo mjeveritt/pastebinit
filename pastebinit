@@ -1,10 +1,9 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 # Author: Stéphane Graber <stgraber@ubuntu.com>
 # Written by Stéphane Graber <stgraber@stgraber.org>
 #            Daniel Bartlett <dan@f-box.org>
-# Last modification : Mon Jan  6 18:46:46 EST 2014
 
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -23,15 +22,9 @@
 from __future__ import print_function
 
 import sys
-if sys.version[0] == "2":
-    from ConfigParser import NoOptionError
-    from ConfigParser import SafeConfigParser as ConfigParser
-    from urllib import urlencode
-    from urllib import request
-else:
-    from configparser import ConfigParser, NoOptionError
-    from urllib.parse import urlencode
-    from urllib import request
+from configparser import ConfigParser, NoOptionError
+from urllib.parse import urlencode
+from urllib import request
 
 # Set the default pastebin
 defaultPB = "pastebin.com"
@@ -39,7 +32,8 @@ defaultPB = "pastebin.com"
 # Now try to override it with a distributor pastebin
 try:
     import distro
-    release = distro.linux_distribution(full_distribution_name=False)[0].lower()
+    release = distro.linux_distribution(
+              full_distribution_name=False)[0].lower()
     if release == 'debian':
         defaultPB = "paste.debian.net"
     elif release == 'fedora':
@@ -69,7 +63,7 @@ try:
     socket.setdefaulttimeout(15)
 
     # Version number to show in the usage
-    version = "1.5"
+    version = "1.5.1"
     configfile = os.path.expanduser("~/.pastebinit.xml")
 
     class PasteRequest(request.Request):
