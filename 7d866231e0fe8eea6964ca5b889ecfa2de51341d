@@ -1,0 +1,7 @@
+  * new upstream release
+    - add https support. Closes: #799580, closes: #708206.
+    - add support for hidden pastes. Closes: #670485.
+    - correct mistake in README. LP: #1446433
+  * drop all Debian patches since they were applied upstream
+  * control: update to Debian standard 3.9.7
+  * copyright: update copyright to 2016
