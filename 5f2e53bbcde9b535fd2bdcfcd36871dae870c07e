@@ -1,0 +1,2 @@
+  * Set X-Ubuntu-Use-Langpack: yes on the source package to have it
+    included in the langpacks.
