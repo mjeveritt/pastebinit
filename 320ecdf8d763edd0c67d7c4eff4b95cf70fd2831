@@ -1,0 +1,20 @@
+  * initial debian release. backpush from ubuntu. Closes: #425226
+  * apply the packaging cleanup from Julian Andreas Klode.  Fixes LP: #225676
+  * remove *.mo in dh_clean so that "debuild;debuild" succeeds
+  * use python-central to help with packaging
+  * New upstream release (0.10) (LP: #229589)
+   * http://yourpaste.net now supported (LP: #193352)
+   * fixing wrong manpage (LP: #157082)
+   * fixing typo "catched" > "caught" (LP: #219185)
+   * debian/control: using Homepage field, not pseudo-one.
+   * pastebinit: better handling of command-line passed pastebins
+   [ Fabien Tassin ]
+   * Add Vcs-Bzr to debian/control
+   * Fix -a in Usage()
+   * http://paste.ubuntu.com now supported
+   * http://pastebin.mozilla.org now supported
+   [ Stéphane Graber ]
+   * Changed Homepage field to LP
+   * http://paste.stgraber.org supported again
+   * http://paste.f-box.org supported again
+   * http://1t2.us supported again
