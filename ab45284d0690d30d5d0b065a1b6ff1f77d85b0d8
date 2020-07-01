@@ -1,0 +1,4 @@
+  * New upstream version (1.0)
+   * Introduce /etc/pastebin.d/ for pastebin definition
+   * Code cleanup and refactoring
+   * Updating documentation and translations
