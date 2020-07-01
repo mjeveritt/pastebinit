@@ -1,0 +1,3 @@
+   * handle input from stdin properly. Closes: #499410
+     this fix is important enough that it should be in a stable release
+     the diff is upstream bzr revs 44 and 55
