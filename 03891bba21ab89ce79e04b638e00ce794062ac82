@@ -1,0 +1,2 @@
+  * backport Ubuntu patch to update to new pastebin.com API (Closes: #592167)
+  * drop rafb.net support which has been offline for a while now
