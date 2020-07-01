@@ -1,0 +1,8 @@
+  * Salvage the package (Closes: #927231).
+  * Update Vcs to reflect the move to Salsa.
+  * Run wrap-and-sort.
+  * Fix typo in a patch description.
+  * Update Standards-version to 4.3.0, no changes needed.
+  * Fix trailing whitespace.
+  * Bump debhelper compat to 12, no changes needed.
+  * Update the copyright file to be DEP-5 compliant.
