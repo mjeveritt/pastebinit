@@ -25,7 +25,7 @@ try:
     gettext.textdomain("pastebinit")
 
     defaultPB = "http://pastebin.com" #Default pastebin
-    version = "1.0" #Version number to show in the usage
+    version = "1.1" #Version number to show in the usage
     configfile = os.path.expanduser("~/.pastebinit.xml")
 
     # Custom urlopener to handle 401's
@@ -281,7 +281,10 @@ try:
     try:
         if reLink: #Check if we have to apply a regexp
             website = website.replace(tmp_page, "")
-            print website + "/" + re.split(reLink, page.read())[1] #Print the result of the Regexp
+            if reLink == '(.*)':
+                print page.read().strip()
+            else:
+                print website + re.split(reLink, page.read())[1] #Print the result of the Regexp
         else:
             print page.url #Get the final page and show the ur
     except KeyboardInterrupt:
