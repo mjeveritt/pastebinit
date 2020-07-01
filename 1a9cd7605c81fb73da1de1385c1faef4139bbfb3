@@ -1,0 +1,6 @@
+  * push back new upstream release from Ubuntu Jaunty. (Closes: #519879)
+    * fix parsing of config file. (Closes: #524422)
+    * properly read from stdin. (Closes: #532504)
+  * update to 3.8.2 standard.  No changes necessary.
+  * update watch file
+  * allow uploads by Debian Maintainers
