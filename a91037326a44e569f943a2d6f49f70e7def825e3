@@ -1,0 +1,4 @@
+  * control:
+    - update VCS URIs to point to github
+    - update Debian Standard to 4.1.4
+  * copyright: update to 2018
