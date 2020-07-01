@@ -1,0 +1,8 @@
+  * New upstream release.
+    - Fix the URL in the manpage (Closes: #822636, LP: #1574849).
+    - Add German translations (Closes: #886026).
+    - Remove cxg.de and lpaste.net (Closes: #915901).
+    - Remove both patches as they were applied upstream.
+  * Update to the new pastebinit home in debian/control.
+  * Update the watch file for the new upstream location.
+  * Bump Standards-version to 4.4.0, no changes needed.
