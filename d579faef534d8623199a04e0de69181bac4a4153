@@ -1,0 +1,3 @@
+  * Non-maintainer upload.
+  * Fix deprecation warnings under Python 3.6 and 3.7 (Closes: #916372).
+    - Thanks to Antonio Terceiro for the patches!
