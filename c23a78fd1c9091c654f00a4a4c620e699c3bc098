@@ -1,0 +1,3 @@
+  * Convert to dh_python2 (Closes: #616933)
+    - update debian/rules
+    - update debian/control
