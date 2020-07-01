@@ -1,0 +1,1 @@
+  * backport upstream r81. Closes: #655179 (fix user config files support)
