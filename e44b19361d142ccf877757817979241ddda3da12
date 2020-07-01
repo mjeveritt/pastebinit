@@ -1,0 +1,4 @@
+  * New upstream version
+    - Implement gettext localization (David Paleino) (LP: #119723)
+    - Normal kill now works (David Paleino) (LP: #119273)
+    - Added XML-generated manpage from Debian package (David Paleino)
