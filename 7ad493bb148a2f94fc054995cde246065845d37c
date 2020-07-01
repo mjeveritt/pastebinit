@@ -1,0 +1,3 @@
+  * 30-lsb.patch: set default pastebin according to OS (LP: #648298)
+    patch courtesy of Mario Limonciello
+  * update to Debian standard 3.9.1
