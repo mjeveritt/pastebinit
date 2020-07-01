@@ -1,0 +1,5 @@
+  * new upstream release (Closes: #572728)
+  * update to Standard 3.8.4
+    * add ${misc:Depends} to run-time dependencies (no real changes expected)
+    * move to DebSrc3.0 format
+  * maintain packaging information in git rather than bzr from now on
