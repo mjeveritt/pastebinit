@@ -1,0 +1,1 @@
+  * debian/pastebinit.preinst: add #DEBHELPER# token to script
