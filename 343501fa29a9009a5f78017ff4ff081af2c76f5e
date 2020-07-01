@@ -1,0 +1,2 @@
+  * bump debhelper to version 9
+  * control: drop some obsolete python options
