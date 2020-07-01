@@ -1,0 +1,7 @@
+  * debian/control:
+    - use Breaks instead of Conflicts for the bikeshed package
+    - bump to standard 3.9.3, no further changes
+    - recommend the lsb-release package
+  * move to dh7 rules.tiny for the build process. Closes: #616933
+  * replace pastebin.com with paste.debian.net as default pastebin
+    until the breakage from their API change has been fixed upstream
