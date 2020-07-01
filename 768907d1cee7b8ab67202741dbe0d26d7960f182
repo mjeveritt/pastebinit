@@ -1,0 +1,2 @@
+  * Merge from Debian unstable. Remaining changes:
+    - Don't build-depend on python-support.
