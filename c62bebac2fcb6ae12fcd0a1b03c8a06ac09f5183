@@ -1,0 +1,6 @@
+  * patches:
+    ~ update upstream to r205. Fix unicode problem. LP: #1270359
+      This essentially gives us upstream release 1.4.1
+    ~ increase timeout to 15s to account for bad networks
+  * watch: only check for 2-level (major.minor) upstream releases
+  * drop preinst script as obsolete
