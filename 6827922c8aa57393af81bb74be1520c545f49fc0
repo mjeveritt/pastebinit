@@ -1,0 +1,6 @@
+  [ Gianfranco Costamagna ]
+  * Non-maintainer upload.
+  * This is a fixup upload of the previous NMU
+  [ Unit 193 ]
+  * 0002-update-urlopen-usage.patch:
+    - Update to account for json pastebin services.
