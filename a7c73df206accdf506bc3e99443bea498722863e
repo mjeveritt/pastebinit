@@ -1,0 +1,3 @@
+  * ship some contrib scripts from Dustin Kirkland's bikeshed project
+  * debian/control: bump build-time dependency to debhelper >= 7
+  * debian/control: use dh_prep instead of dh_clean -k
