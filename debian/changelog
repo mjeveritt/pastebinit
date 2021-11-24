@@ -1,3 +1,21 @@
+pastebinit (1.5.1-1ubuntu1) devel; urgency=medium
+
+  * d/p/0001-Fix-pasting-files-to-JSON-based-bins.patch:
+    - Fix pasting files to JSON based bins. (LP: #1785821)
+  * d/p/0002-Allow-private-to-be-configured.patch:
+    - Allow 'private' to be configured.
+  * d/p/0003-Update-Openstack-s-pastebin-site-paste.openstack.org.patch:
+    - Update Openstack's pastebin site, paste.openstack.org → paste.opendev.org
+  * d/p/0004-Fix-distro.linux_distribution-deprecation.patch:
+    - Fix distro.linux_distribution deprecation. (LP: #1844128)
+  * d/copyright: Correct paths.
+  * d/control:
+    - Replace d/compat with debhelper-compat, bump to 13.
+    - R³: no.
+  * Update Standards-Version to 4.6.0.
+
+ -- Unit 193 <unit193@ubuntu.com>  Tue, 23 Nov 2021 21:53:34 -0500
+
 pastebinit (1.5.1-1) unstable; urgency=medium
 
   * New upstream release.

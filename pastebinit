@@ -32,8 +32,7 @@ defaultPB = "pastebin.com"
 # Now try to override it with a distributor pastebin
 try:
     import distro
-    release = distro.linux_distribution(
-              full_distribution_name=False)[0].lower()
+    release = distro.id()
     if release == 'debian':
         defaultPB = "paste.debian.net"
     elif release == 'fedora':
@@ -260,6 +259,7 @@ try:
             configxml = xml.dom.minidom.parseString(configtext)
             for variable, key in (('pastebin', 'website'), ('author', 'user'),
                                   ('format', 'format'),
+                                  ('private', 'private'),
                                   ('jabberid', 'jabberid')):
                 try:
                     value = getFirstNodeText(configxml, variable)
@@ -343,7 +343,7 @@ try:
             content = sys.stdin.read()
         else:
             try:
-                with open(filename, "rb") as fd:
+                with open(filename, "r") as fd:
                     content = fd.read()
             except KeyboardInterrupt:
                 print(_("KeyboardInterrupt caught."), file=sys.stderr)

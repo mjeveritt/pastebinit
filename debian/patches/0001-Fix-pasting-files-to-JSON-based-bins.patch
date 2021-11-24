@@ -1,0 +1,25 @@
+From 32abc4d890d595a82ce94b85f5316e7220bf829b Mon Sep 17 00:00:00 2001
+From: Unit 193 <unit193@unit193.net>
+Date: Thu, 7 Oct 2021 04:37:07 -0400
+Subject: [PATCH 1/4] Fix pasting files to JSON based bins.
+
+---
+ pastebinit | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/pastebinit b/pastebinit
+index 8a68959..6160a93 100755
+--- a/pastebinit
++++ b/pastebinit
+@@ -343,7 +343,7 @@ try:
+             content = sys.stdin.read()
+         else:
+             try:
+-                with open(filename, "rb") as fd:
++                with open(filename, "r") as fd:
+                     content = fd.read()
+             except KeyboardInterrupt:
+                 print(_("KeyboardInterrupt caught."), file=sys.stderr)
+-- 
+2.30.2
+

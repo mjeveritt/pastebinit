@@ -1,0 +1,49 @@
+From 1057cecdbd1cf8c6edc016f2136ecd3186d93b08 Mon Sep 17 00:00:00 2001
+From: Unit 193 <unit193@unit193.net>
+Date: Thu, 7 Oct 2021 04:39:15 -0400
+Subject: [PATCH 3/4] =?UTF-8?q?Update=20Openstack's=20pastebin=20site,=20p?=
+ =?UTF-8?q?aste.openstack.org=20=E2=86=92=20paste.opendev.org.?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ ...ste.openstack.org.conf => paste.opendev.org.conf} | 12 +++++++-----
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+ rename pastebin.d/{paste.openstack.org.conf => paste.opendev.org.conf} (54%)
+
+diff --git a/pastebin.d/paste.openstack.org.conf b/pastebin.d/paste.opendev.org.conf
+similarity index 54%
+rename from pastebin.d/paste.openstack.org.conf
+rename to pastebin.d/paste.opendev.org.conf
+index c025923..5c504cb 100644
+--- a/pastebin.d/paste.openstack.org.conf
++++ b/pastebin.d/paste.opendev.org.conf
+@@ -1,10 +1,11 @@
+ [pastebin]
+-basename = paste.openstack.org
+-regexp = http://paste.openstack.org
++basename = paste.opendev.org
++regexp = https://paste.opendev.org
+ 
+ [format]
+-lang = language
++format = language
+ page = page
++private = private
+ content = code
+ post_format = post_format
+ regexp = regexp
+@@ -13,6 +14,7 @@ target_url = target_url
+ [defaults]
+ page = /json/?method=pastes.newPaste
+ post_format = json
+-lang =
++private = ""
++language = none
+ regexp = \"data\": \"([^"]*)
+-target_url = http://paste.openstack.org/show/
++target_url = https://paste.opendev.org/show/
+-- 
+2.30.2
+
