@@ -1,0 +1,26 @@
+From 47efd7c8f62afd643ad0e1a5b67a75b68e7695da Mon Sep 17 00:00:00 2001
+From: Unit 193 <unit193@unit193.net>
+Date: Thu, 7 Oct 2021 04:40:16 -0400
+Subject: [PATCH 4/4] Fix distro.linux_distribution deprecation.
+
+---
+ pastebinit | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+diff --git a/pastebinit b/pastebinit
+index e5a28d4..63f8065 100755
+--- a/pastebinit
++++ b/pastebinit
+@@ -32,8 +32,7 @@ defaultPB = "pastebin.com"
+ # Now try to override it with a distributor pastebin
+ try:
+     import distro
+-    release = distro.linux_distribution(
+-              full_distribution_name=False)[0].lower()
++    release = distro.id()
+     if release == 'debian':
+         defaultPB = "paste.debian.net"
+     elif release == 'fedora':
+-- 
+2.30.2
+
