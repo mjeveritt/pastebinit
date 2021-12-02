@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Simon Quigley <tsimonq2@debian.org>
 Build-Depends: debhelper-compat (= 13)
 Build-Depends-Indep: docbook-xml, docbook-xsl, xsltproc
+Rules-Requires-Root: no
 Standards-Version: 4.6.0
 Homepage: https://phab.lubuntu.me/source/pastebinit/
 Vcs-Browser: https://salsa.debian.org/debian/pastebinit
