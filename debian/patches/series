@@ -1,2 +1,3 @@
 0001-Fix-pasting-files-to-JSON-based-bins.patch
 0002-Allow-private-to-be-configured.patch
+0003-Update-Openstack-s-pastebin-site-paste.openstack.org.patch
