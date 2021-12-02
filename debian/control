@@ -1,7 +1,8 @@
 Source: pastebinit
 Section: misc
 Priority: optional
-Maintainer: Simon Quigley <tsimonq2@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Simon Quigley <tsimonq2@debian.org>
 Build-Depends: debhelper-compat (= 13)
 Build-Depends-Indep: docbook-xml, docbook-xsl, xsltproc
 Rules-Requires-Root: no
