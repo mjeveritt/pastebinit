@@ -1,0 +1,24 @@
+From e07b7d115535c6d9e817edeef2c262fdcd66591a Mon Sep 17 00:00:00 2001
+From: Unit 193 <unit193@unit193.net>
+Date: Thu, 7 Oct 2021 04:37:30 -0400
+Subject: [PATCH 2/4] Allow 'private' to be configured.
+
+---
+ pastebinit | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/pastebinit b/pastebinit
+index 6160a93..e5a28d4 100755
+--- a/pastebinit
++++ b/pastebinit
+@@ -260,6 +260,7 @@ try:
+             configxml = xml.dom.minidom.parseString(configtext)
+             for variable, key in (('pastebin', 'website'), ('author', 'user'),
+                                   ('format', 'format'),
++                                  ('private', 'private'),
+                                   ('jabberid', 'jabberid')):
+                 try:
+                     value = getFirstNodeText(configxml, variable)
+-- 
+2.30.2
+
