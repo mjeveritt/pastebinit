@@ -1,3 +1,38 @@
+pastebinit (1.6-1) unstable; urgency=medium
+
+  * New upstream release. (1.6)  GitHub Changelog:
+    * Traverse options hierarchy properly.
+    * Move non-parameter options to '[pastebin]' section.
+    * Process pastebin settings outside of multi-paste loop.
+    * Check for pastebin before getting input (LP: #1273859)
+    * Add support for XDG config and data directories (LP: #1324280, 
+      LP: #1671107)
+    * Make private pasting togglable both ways at runtime.
+    * Paste privately by default where supported.
+    * Fix and update pastebin.com configuration (LP: #1309107, 
+      LP: #1552092)
+    * Work around pastebins with user name length limit (LP: #1437286)
+    * Update and improve documentation.
+  * Additional packaging changes:
+    * d/control:
+      * Update Maintainer to replace Simon Quigley with Thomas Ward
+        (discussed with and approved by Simon)
+      * Update uploaders to include Simon Quigley and Thomas Ward
+        (co-maintainer situation)
+      * Remove breaks/replaces on old bikeshed.
+      * Update build-depends, standards version, and homepage for 
+        upstream project.
+      * Add Rules-Requires-Root: no.
+    * d/watch:
+      * Update d/watch for new upstream location now on Github
+    * d/dirs: Removed unnecessary file in debian packaging.
+    * d/compat: Remove compat file, replaced with debhelper-compat
+      in build deps.
+    * d/copyright: Update copyright file to match expected formats, update
+      packaging copyrights list
+
+ -- Thomas Ward <teward@ubuntu.com>  Sat, 12 Nov 2022 17:04:08 -0500
+
 pastebinit (1.5.1-1) unstable; urgency=medium
 
   * New upstream release.

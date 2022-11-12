@@ -7,13 +7,14 @@ Files: *
 Copyright: 2007-2016 Stéphane Graber, Daniel Bartlett, David Paleino
 License: GPL-2+
 
-Files: debian/
+Files: debian/*
 Copyright: 2006-2008 Stéphane Graber
            2008-2018 Rolf Leggewie
-           2019 Simon Quigley <tsimonq2@debian.org
+           2019 Simon Quigley <tsimonq2@debian.org>
+           2022 Thomas Ward <teward@ubuntu.com>
 License: GPL-2+
 
-Files: po/
+Files: po/*
 Copyright: 2007-2016 Pastebinit Developers Team, Rosetta Contributors, Canonical Ltd.
 License: GPL-2+
 
