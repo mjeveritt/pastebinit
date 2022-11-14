@@ -1,0 +1,2 @@
+  * New upstream release (1.6.1). GitHub Changelog:
+    * Add NoneType handling/fix for Debian (Closes: #1023962)
