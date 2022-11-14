@@ -1,3 +1,13 @@
+pastebinit (1.6.2-1) unstable; urgency=medium
+
+  * New upstream relase (1.6.1). GitHub Changelog:
+    * Revert "Add NoneType handling/fix for Debian (Closes: #1023962)"
+    * Default to empty string in os.environ.get for potentially empty 
+      env vars
+      (Closes: #1023962)
+
+ -- Thomas Ward <teward@ubuntu.com>  Mon, 14 Nov 2022 16:33:59 -0500
+
 pastebinit (1.6.1-1) unstable; urgency=medium
 
   * New upstream release (1.6.1). GitHub Changelog:
