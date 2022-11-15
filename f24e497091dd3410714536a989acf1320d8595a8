@@ -1,0 +1,5 @@
+  * New upstream relase (1.6.1). GitHub Changelog:
+    * Revert "Add NoneType handling/fix for Debian (Closes: #1023962)"
+    * Default to empty string in os.environ.get for potentially empty 
+      env vars
+      (Closes: #1023962)
