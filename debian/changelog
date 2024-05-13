@@ -1,3 +1,11 @@
+pastebinit (1.7.0-1) unstable; urgency=medium
+
+  * New upstream release (1.7.0).
+  * d/pastebinit.docs: Update documentation path for markdown change
+    in upstream README file.
+
+ -- Thomas Ward <teward@ubuntu.com>  Mon, 13 May 2024 15:41:27 -0400
+
 pastebinit (1.6.2-1) unstable; urgency=medium
 
   * New upstream relase (1.6.1). GitHub Changelog:
