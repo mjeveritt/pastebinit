@@ -13,7 +13,7 @@ Vcs-Git: https://salsa.debian.org/debian/pastebinit.git
 
 Package: pastebinit
 Architecture: all
-Depends: python3, python3-distro, ${misc:Depends}
+Depends: python3:any, python3-distro, ${misc:Depends}
 Description: command-line pastebin client
  pastebinit is a command-line tool to send data to a "pastebin", a web site
  which allows its users to upload snippets of text for public viewing.
