@@ -1,0 +1,3 @@
+  * New upstream release (1.7.0).
+  * d/pastebinit.docs: Update documentation path for markdown change
+    in upstream README file.
