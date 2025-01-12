@@ -1,3 +1,9 @@
+pastebinit (1.7.1-1mje1) UNRELEASED; urgency=medium
+
+  * Updated build for "22.04.3 LTS (Jammy Jellyfish)"
+
+ -- Michael Everitt <michael@2e0cer.net>  Sun, 12 Jan 2025 20:53:45 +0000
+
 pastebinit (1.7.1-1) unstable; urgency=medium
 
   * New upstream release (1.7.1)
